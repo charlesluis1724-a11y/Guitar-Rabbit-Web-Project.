@@ -3,6 +3,7 @@ const merla121 = document.querySelectorAll('.merla121');
 const gallerygrid = document.querySelectorAll('.gallery-grid');
 
 
+
 const animate = new IntersectionObserver((entries) => {
   entries.forEach((entry, index) => {
     if (entry.isIntersecting) {

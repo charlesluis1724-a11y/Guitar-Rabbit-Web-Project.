@@ -4,10 +4,10 @@
     /* margin: 0px 0px 0px !important; */
     inset: 0;
     background-color: #000000;
-    background-image: url('./requirements/guitarist/Edit_Guitarist_design2.mp4');
+    background-image: url('./requirements/guitarist/Edit_Guitarist_design4.mp4');
     
      
-    background-size: 100%;
+    background-size: 80%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     position: relative;
     top: 120px;
     width: 100vw;
-    /* margin-left: -300px !important; */
+    /* margin-left: 300px !important; */
     margin-right: -300px !important;
     overflow: hidden;
 
