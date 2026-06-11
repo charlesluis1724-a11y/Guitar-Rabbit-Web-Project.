@@ -1,0 +1,43 @@
+.afterbanner_back10 {
+
+
+    /* margin: 0px 0px 0px !important; */
+    inset: 0;
+    background-color: #000000;
+    background-image: url('./requirements/guitarist/Edit_Guitarist_design2.mp4');
+    
+     
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* z-index: 1; */
+    height: 4000px;
+    position: relative;
+    top: 120px;
+    width: 100vw;
+    /* margin-left: -300px !important; */
+    margin-right: -300px !important;
+    overflow: hidden;
+
+
+    
+}
+
+.zoom_in {
+  background-color: #0a0a0a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: multiply;
+}
+
+h1  {
+  font-size: 400px;
+  font-family: archivo black;
+  color: rgb(255, 255, 255);
+  will-change: transform;
+  
+}
+

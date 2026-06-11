@@ -1,0 +1,62 @@
+/* .gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: (2, 10px);
+  gap: 2px;
+  padding: 2px;
+} */
+
+.flip-card {
+  cursor: pointer;
+  overflow: hidden;
+ /* width: 5%; */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, 
+.flip-card-back {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  
+}
+
+.flip-card-front img,
+.flip-card-back img {
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.flip-card:hover .flip-card-front img {
+  transform: scale(1);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);   
+  background: #000000;
+}
+
+.gallery-grid {
+    opacity: 1%;
+    transform: translateY(330px);
+    transition: opacity 2s ease, transform 1.5s ease;
+}
+
+.gallery-grid.visible {
+        opacity: 100%;
+        transform: translateY(0);
+    }
