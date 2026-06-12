@@ -1,4 +1,4 @@
-document.querySelectorAll('.').forEach(el => {
+document.querySelectorAll('.header3').forEach(el => {
   el.innerHTML = el.textContent
     .split('')
     .map((char, i) => 
@@ -17,4 +17,4 @@ const textObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.').forEach(el => textObserver.observe(el));
+document.querySelectorAll('.header3').forEach(el => textObserver.observe(el));
