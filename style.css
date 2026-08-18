@@ -408,34 +408,7 @@ body {
     line-height: normal;
 }
 
-.blackbacground {
-    background-color: #000;
-}
-/* @media (max-width: 3456px) {
-    body {
-        background-size: 1000px;
-    }
-} */
-@media (max-width: 2560px) {
-    body {
-        background-size: 500px;
-    }
-}
-@media (max-width: 1440px) {
-    body {
-        background-size: 500px;
-    }
-}
-/* @media (max-width: 1024px) {
-    body {
-        background-size: 500px;
-    }
-} */
-/* @media (max-width: 768px) {
-    body {
-        background-size: 500px;
-    }
-} */
+
 @media (max-width: 3456px) { 
     .head_banner {
         height: 1100px;
@@ -504,20 +477,36 @@ body {
 }
 @media (max-width: 3456px) { 
     .header3 {
-        font-size: 400px;
-        text-shadow: 0px 5px 100px #92c800;
+        font-size: 375px;
     }
 }
 @media (max-width: 2560px) { 
     .header3 {
-        font-size: 305px;
-        text-shadow: 0px 5px 70px #92c800;
+        font-size: 250px;
     }
 }
+@media (max-width: 2300px) { 
+    .header3 {
+        font-size: 220px;
+    }
+}
+@media (max-width: 2000px) { 
+    .header3 {
+        font-size: 190px;
+    }
+}
+@media (max-width: 1700px) { 
+    .header3 {
+        font-size: 165px;
+    }
+}
+
+
+
 @media (max-width: 1440px) { 
     .header3 {
-        font-size: 166px;
-        text-shadow: 0px 5px 70px #92c800;
+        font-size: 150px;
+        /* text-shadow: 0px 0px 0px #92c800; */
     }
 }
 /* @media (max-width: 1024px) { 
@@ -593,12 +582,27 @@ body {
 }
 @media (max-width: 2560px) {
     .carousel-track img {
-        height: 200px;
+        height: 130px;
+    }
+}
+@media (max-width: 2300px) {
+    .carousel-track img {
+        height: 115px;
+    }
+}
+@media (max-width: 2000px) {
+    .carousel-track img {
+        height: 90px;
+    }
+}
+@media (max-width: 1700px) {
+    .carousel-track img {
+        height: 80px;
     }
 }
 @media (max-width: 1440px) {
     .carousel-track img {
-        height: 130px;
+        height: 70px;
     }
 }
 
@@ -612,41 +616,7 @@ body {
 }
 
 
-/*  MERLA */
-.merla {
-    font-family: montserrat;
-    letter-spacing: 2px;   
-    font-weight: bolder;
-    color: #b3f401;
-    transform: rotate(-90deg);
-    position: absolute;
-}
 
-@media (min-width: 2560px) {
-    .merla {
-        font-size: 30px;
-        right: 7%;
-        top: 110%;
-    }
-}
-@media (min-width: 1440px) {
-    .merla {
-        right: 7%;
-        top: 110%;
-    }
-}
-@media (min-width: 1024px) {
-    .merla {
-        right: 7%;
-        top: 70%;
-    }
-}
-@media (min-width: 768px) {
-    .merla {
-        right: 7%;
-        top: 70%;
-    }
-}
 .card-img-top {
     border-radius: 30px;
 }
@@ -776,17 +746,16 @@ body {
 }
 @media (max-width: 2560px) {
     .card-content, .card-text {
-    font-size: 25px;
+    font-size: 20px;
     color: #b3f401;
-    
     }
 }
 @media (max-width: 2560px) {
 .h5, h5, .card-title {
-    font-size: 50px;
+    font-size: 35px;
     margin-bottom: 10px;
     color: #ffffff;
-}
+    }
 }
 @media (min-width: 2560px) {
     .card-group>.card {
@@ -795,9 +764,13 @@ body {
 }
 @media (min-width: 2560px) {
     .card-group {
-        padding: 50px;
+        padding: 0px;
     }
 }
+
+
+
+
 @media (min-width: 1440px) {
     .card {
         padding: 5px;
@@ -1010,36 +983,41 @@ body {
     }
 @media (max-width: 3456px) {
     .merla121{
-        margin: 550px 150px 150px;
+        margin: 150px 300px 150px;
         /* margin-bottom: 550px !important; */
-        font-size: 150px;
-        text-shadow: 0px 5px 100px #92c800;
+        font-size: 190px;
     }
 }
 @media (max-width: 2560px) {
     .merla121{
-       margin: 50px 50px 50px 50px;
-        font-size: 100px;
-        text-shadow: 5px 8px 0px #354800bb;
-        text-shadow: 0px 0px 200px #b3f401;
+       margin: 150px 140px 150px;
+        font-size: 140px;
+    }
+}
+@media (max-width: 2300px) {
+    .merla121{
+       margin: 150px 100px 150px;
+        font-size: 120px;
+    }
+}
+@media (max-width: 2000px) {
+    .merla121{
+       margin: 150px 140px 150px;
+        font-size: 80px;
     }
 }
 @media (max-width: 1440px) {
     .merla121{
-        margin: 50px 50px 50px 50px;
-        font-size: 120px;
-        text-shadow: 5px 8px 0px #354800bb;
-        text-shadow: 0px 0px 200px #b3f401;
+        margin: 150px 150px 150px;
+        font-size: 80px;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
     .merla121{
-        margin: 50px 50px 50px 50px;
-        font-size: 80px;
-        text-shadow: 5px 8px 0px #354800bb;
-        text-shadow: 0px 0px 200px #b3f401;
+        margin: 150px 150px 150px;
+        font-size: 50px;
     }
-    }
+}
 @media (max-width: 768px) {
     .merla121{
         margin: 50px 150px 50px 150px;
