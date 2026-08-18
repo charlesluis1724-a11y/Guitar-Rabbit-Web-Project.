@@ -1,12 +1,8 @@
 .afterbanner_back10 {
-
-
     /* margin: 0px 0px 0px !important; */
     inset: 0;
     background-color: #000000;
     background-image: url('./requirements/guitarist/vid_guitar.mp4');
-    
-    
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -19,10 +15,8 @@
     /* margin-left: 300px !important; */
     margin-right: -300px !important;
     overflow: hidden;
-
-
-    
 }
+
 
 .zoom_in {
   background-color: #0a0a0a;
@@ -34,7 +28,7 @@
 }
 
 h1  {
-  font-size: 400px;
+  font-size: 370px;
   font-family: archivo black;
   color: rgb(255, 255, 255);
   will-change: transform;
