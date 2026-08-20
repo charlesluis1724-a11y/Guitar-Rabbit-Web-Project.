@@ -1,3 +1,11 @@
+GITHUB REPO.Link: https://github.com/charlesluis1724-a11y/Guitar-Rabbit-Web-Project.
+
+PROJECT WEBSITE Link: https://charlesluis1724-a11y.github.io/Guitar-Rabbit-Web-Project./
+
+FIGMA Link: https://www.figma.com/design/q0g8deI0kFGLe2oqwSwLTc/Untitled?node-id=0-1&p=f&t=1Gf3yJn77JSUkipr-0
+
+Video Screen Record Link: (Parallax Effect might not work in Chrome, so I screen record it.) https://www.dropbox.com/scl/fi/5g6xh6zsfezbu9l1qsruk/Screen-Recording-2026-08-20-at-00.15.46.mov?rlkey=8eeze53cn6z9q448vnpnfz5ix&st=6noawa0a&dl=0
+
 To be honest, haven't yet made the website completely responsive for mobile devices. I was truly distracted with recent life events and doing a fulltime job. I find it hard to catch up with the modules but I am still trying my best to finish the assessment. And I ask for your consideration as I slowly work with the modules. I will still continue to develop the responsiveness of the website as I’m just really short on time.
 
 The Parallax Effect is only working in SAFARI as I’m mainly working on a Mac engine. I tried all resources but without luck I still didn't solve the why it's not working in CHROME. As part of working through the Modules I’ll will continue to work on finding ways to have it running in other browsers.
